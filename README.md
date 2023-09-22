@@ -9,7 +9,7 @@ Currently, the following .NET templates are implemented:
 
 To learn how to install and use the templates, check out the [FusionAuth Templates for .NET guide](https://fusionauth.io/docs/v1/tech/client-libraries/netcore).
 
-### Building and Installing from source
+## Building and Installing from source
 
 To build and install the FusionAuth Templates from the source code, follow these steps:
 
@@ -28,6 +28,10 @@ To build and install the FusionAuth Templates from the source code, follow these
    ```bash
    dotnet new install ./bin/Debug/FusionAuth.Templates.1.0.0.nupkg
    ```
+
+## Publish
+
+Use the .nupkg file and follow the instructions to [publish a nuget package](https://learn.microsoft.com/en-us/nuget/nuget-org/publish-a-package).
 
 ## Uninstalling
 
