@@ -13,7 +13,7 @@ To learn how to install and use the templates, check out the [FusionAuth Templat
 
 To build and install the FusionAuth Templates from the source code, follow these steps:
 
-1.[Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository onto your local machine.
+1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository onto your local machine.
 
 2. Build a NuGet package by executing the following command in the root folder of the project:
 
