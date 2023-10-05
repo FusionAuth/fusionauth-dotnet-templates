@@ -52,7 +52,12 @@ In order to deploy the templates to the Visual Studio Marketplace, a .vsix file 
 
 1. Build the Nuget package as described above. This will produce `\bin\Debug\FusionAuth.Templates.1.0.0.nupkg`.
    
-2. Open the `.\VsixProject\FusionAuthVisualStudioTemplates.sln` solution in Visual Studio and build the project. Alternatively, you can use MSBuild at the command line.  I.E. `.\MSBuild "C:\dev\fusionauth-dotnet-templates\VsixProject\FusionAuthVisualStudioTemplates\FusionAuthVisualStudioTemplates.csproj" -p:Configuration=Release`. This will create the `FusionAuthVisualStudioTemplates.vsix` file in the `...\FusionAuthVisualStudioTemplates\bin\Release` directory. (If you build in Visual Studio, you will need to set the configuration for the build manually) You may need to go into the project and update the vesion in the `source.extension.vsixmanifest` file.
+2. Open the `.\VsixProject\FusionAuthVisualStudioTemplates.sln` solution in Visual Studio and build the project. Alternatively, you can use MSBuild at the command line.
+   I.E.
+   ```
+   MSBuild "C:\dev\fusionauth-dotnet-templates\VsixProject\FusionAuthVisualStudioTemplates\FusionAuthVisualStudioTemplates.csproj" -p:Configuration=Release
+   ```
+   This will create the `FusionAuthVisualStudioTemplates.vsix` file in the `...\FusionAuthVisualStudioTemplates\bin\Release` directory. (If you build in Visual Studio, you will need to set the configuration for the build manually) You may need to go into the project and update the vesion in the `source.extension.vsixmanifest` file.
    
 3. Go to https://marketplace.visualstudio.com/ and sign in with the appropriate account. Click on the three dots next to the `FusionAUth Visual Studio Templates` extenstion. Select `edit`. Upload newly created extenstion and update information.
 
